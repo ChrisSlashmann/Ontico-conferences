@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "TT Travels";
+  src: url("../assets/fonts/tttravels-regular-webfont.woff2") format('woff2'),
+       url("../assets/fonts/tttravels-regular-webfont.woff") format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Travels";
+  src: url("../assets/fonts/tttravels-medium-webfont.woff2") format('woff2'),
+       url("../assets/fonts/tttravels-medium-webfont.woff") format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'TT Travels', sans-serif;
+
+  background-color: #fff;
+}
+
+h2, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.conference__container {
+  padding: 133px 118px 233px;
+}
+
+.conference__list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(278px, 378px));
+  column-gap: 57px;
+  row-gap: 50px;
+}
+
+.conference__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  padding: 25px 30px 39px;
+}
+
+.conference__list-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.conference__list-dates {
+  margin-bottom: 19px;
+  font-weight: 500;
+}
+
+.conference__list-logo {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+.conference__list-name {
+  margin-bottom: 15px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.conference__list-desc {
+  margin-bottom: 17px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.conference__list-location {
+  padding-left: 20px;
+  margin-bottom: 12px;
+
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+
+  background-image: url('../assets/img/location.png');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 12px 18px;
+}
+
+.conference__list-uri {
+  padding-left: 21px;
+  margin-bottom: 25px;
+
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: underline;
+
+  background-image: url('../assets/img/link.png');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 13px 13px;
+}
+
+.conference__list-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.conference__list-buy {
+  display: block;
+  width: 165px;
+  padding: 8px 20px;
+
+  color: #fff;
+  font-weight: 500;
+
+  background-color: #6B46D4;
+}
+
+.conference__list-show-more {
+  color: #6B46D4;
+  font-weight: 500;
+  text-decoration: underline;
+}

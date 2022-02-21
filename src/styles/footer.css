@@ -1,0 +1,91 @@
+footer {
+  background-color: #262529;
+}
+
+.footer__container {
+  padding: 58px 154px 35px 114px;
+
+  color: #fff;
+
+  background-image: url('../assets/img/2022.png');
+  background-size: 1117px 354px;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+}
+
+.footer__contacts {
+  max-width: 589px;
+  margin-bottom: 22px;
+}
+
+p.footer__contacts:last-of-type {
+  max-width: 519px;
+  margin-bottom: 74px;
+}
+
+.footer__contacts-subtitle {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.footer__contacts-subtitle_oneliner {
+  display: block;
+}
+
+.footer__contacts-link {
+  color: #fff;
+}
+
+.footer__timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer__timeline-year {
+  margin: 0;
+  padding-top: 8px;
+  padding-left: 25px;
+
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+}
+
+.footer__timeline-wrapper {
+  max-width: 1366px;
+  min-width: 1366px;
+}
+
+.footer__timeline-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1366px;
+  /* min-width: 1266px; */
+  border-top: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+.footer__timeline-item {
+  position: relative;
+  padding-top: 12px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.footer__timeline-marker {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 35px;
+  height: 10px;
+}
+
+.footer__timeline-text {
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
